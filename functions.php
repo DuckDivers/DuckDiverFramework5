@@ -118,7 +118,7 @@ endif;
  */
 function dd_theme_scripts() {
 	
-	wp_enqueue_style( '_s-style', get_stylesheet_directory_uri() . '/style.min.css' );
+	wp_enqueue_style( '_s-style', get_template_directory_uri() . '/bootstrap/scss/bootstrap.min.css' );
 
 	wp_enqueue_script( '_s-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
